@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.harkkatylogin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hockey"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hockey"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Harkkatyölogin">
+        <activity
+            android:name=".explanations"
+            android:exported="false" />
+        <activity
+            android:name=".HomePageActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/Theme.Harkkatyölogin.NoActionBar" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Webview"
+            android:exported="true" />
+
+        <activity
+            android:name=".SkaterOtherView"
+            android:exported="false" />
+        <activity
+            android:name=".Skater4on5View"
+            android:exported="false" />
+        <activity
+            android:name=".Skater5on4View"
+            android:exported="false" />
+        <activity
+            android:name=".Skater5on5View"
+            android:exported="true" />
+
+        <activity
+            android:name=".SkaterAllView"
+            android:exported="true"/>
+
+        <activity
+            android:name=".GoalieAllView"
+            android:exported="true"/>
+
+        <activity
+            android:name=".TeamView"
+            android:exported="true"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:title="Home"/>
+
+        <item android:id="@+id/nav_explanations" android:title="Explanations of terms"/>
+
+        <item android:id="@+id/nav_webView" android:title="Injury news"/>
+        <item android:id="@+id/nav_Team_stats" android:title="Team stats"/>
+        <item android:id="@+id/nav_Goalie_stats" android:title="Goalie stats"/>
+        <item android:id="@+id/nav_Players" android:title="Players" >
+            <menu>
+                <item android:id="@+id/nav_5_on_5_stats" android:title="5on5 stats"/>
+
+                <item android:id="@+id/nav_5_on_4_stats" android:title="5on4 stats"/>
+                <item android:id="@+id/nav_All_stats" android:title="All stats"/>
+
+                <item android:id="@+id/nav_Other_stats" android:title="Other stats"/>
+
+            </menu>
+        </item>
+
+    </group>
+</menu>
